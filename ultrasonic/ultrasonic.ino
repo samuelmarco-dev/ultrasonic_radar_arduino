@@ -29,7 +29,7 @@ void loop() {
     delay(30);
     calculateDistance();
     
-    Serial.print(i);
+    Serial.print(index);
     Serial.print(",");
     Serial.print(distance);
     Serial.print(".");
@@ -40,7 +40,7 @@ void loop() {
     delay(20);
     calculateDistance();
     
-    Serial.print(i);
+    Serial.print(index);
     Serial.print(",");
     Serial.print(distance);
     Serial.print(".");
